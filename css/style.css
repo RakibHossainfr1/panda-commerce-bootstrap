@@ -1,0 +1,6 @@
+#header {
+    min-height: 100vh;
+}
+.buy-now-botton {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+}
