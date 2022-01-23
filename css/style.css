@@ -1,6 +1,17 @@
 #header {
     min-height: 100vh;
 }
-.buy-now-botton {
+.panda-buy-now-botton {
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+.backgroun-color-sub {
+    background-color: #fceae8;
+    
+}
+#subscribe {
+    height: 300px;
 }

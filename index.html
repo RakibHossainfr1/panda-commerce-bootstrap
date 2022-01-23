@@ -16,7 +16,7 @@
 <body>
     <!-- start-footer  -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -31,13 +31,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -52,7 +52,7 @@
                         <p>This is the best headphone in the world for people who just want to waste time in front
                             of funky world.</p>
                         <h1>$420</h1>
-                        <div class="btn btn buy-now-botton">Buy Now</div>
+                        <div class="panda-buy-now-botton">Buy Now</div>
                     </div>
                     <div class="col-lg-5">
                         <div class="carousel-inner">
@@ -108,7 +108,7 @@
             </div>
         </section>
         <!-- shoes card  -->
-        <section class="container">
+        <section id="shoes" class="container">
             <h2 class="my-2">Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -121,7 +121,7 @@
                             <h4>$120</h4>
                         </div>
                         <div class="m-3">
-                            <button class="btn buy-now-botton">Buy Now</button>
+                            <button class="panda-buy-now-botton">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                             <h4>$320</h4>
                         </div>
                         <div class="m-3">
-                            <button class="btn buy-now-botton">Buy Now</button>
+                            <button class="panda-buy-now-botton">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -149,13 +149,14 @@
                             <h4>$350</h4>
                         </div>
                         <div class="m-3">
-                            <button class="btn buy-now-botton">Buy Now</button>
+                            <button class="panda-buy-now-botton">Buy Now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="container my-5">
+        <!-- backpack  -->
+        <section id="backpack" class="container my-5">
             <h2 class="my-2">Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -170,7 +171,7 @@
 
                         </div>
                         <div class="m-3">
-                            <button class="btn buy-now-botton">Buy Now</button>
+                            <button class="panda-buy-now-botton">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -185,7 +186,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn buy-now-botton">Buy Now</button>
+                            <button class="panda-buy-now-botton">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -202,15 +203,25 @@
                             <h4>$350</h4>
                         </div>
                         <div class="m-3">
-                            <button class="btn buy-now-botton">Buy Now</button>
+                            <button class="panda-buy-now-botton">Buy Now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Subscribe  -->
+        <section id="subscribe"
+            class="container d-flex justify-content-center align-items-center rounded-3 backgroun-color-sub py-5 my-5">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+                <input type="text" class="form-control" placeholder="Enter your email">
+                <button class="panda-buy-now-botton text-white">SUBMIT</button>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="text-center">
+        <small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
     </footer>
 
 
